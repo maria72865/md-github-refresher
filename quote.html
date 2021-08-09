@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/homepage.css" />
+    <link rel="stylesheet" href="styles/media-queries.css" />
+</head>
+<body>
+
+<style type="text/css">
+    html,body{
+         margin: 0px;
+    }
+    .bgn-wf-wrapper * {
+         box-sizing: border-box;
+    }
+    .bgn-wf-wrapper {
+         width: 100%;
+         max-width: 900px;
+         margin:auto;
+         border: none;
+         padding: 15px;
+         background-color:#fff;
+         color:#333;
+    }
+    .bgn-wf-row {
+         padding: 5px 0 15px 0;
+         display: flex;
+    }
+    .bgn-wf-label{
+         padding: 7px 20px 5px 0px;
+         width: 26%;
+         border: 0;
+         align-self: center;
+         word-break: break-word;
+         position: relative;
+    }
+    .bgn-wf-field {
+         vertical-align: top;
+         text-align: left;
+         word-break: break-word;
+         border: 0;
+         flex: 1;
+    }
+    .bgn-star {
+         color: #bb0707;width: 10px;height: 10px;z-index: 1;font-size: 14px;text-transform: inherit;position: absolute;
+    }
+    @media screen and (max-width: 590px) {
+    .bgn-wf-wrapper {
+         max-width: 80% !Important;
+         border: 0;
+    }
+    .bgn-wf-row,
+    .bgn-wf-label,
+    .bgn-wf-field {
+         display: block;
+         width: 100%;
+    }
+    .bgn-wf-field input[type=text],
+    .bgn-wf-field select,
+    .bgn-wf-field textarea {width: 100% !important; }
+    .bgn-wf-field div > select{
+         width: auto !important;
+    }
+    .bgn-wf-label:empty{display: none; }
+    }
+    </style>
+    <div class='bgn-wf-wrapper' id='crmWebToEntityForm' style='max-width:600px;margin:2em auto;padding: 15px;border:1px solid #e1e1e1;background-color:white;color:black;'>
+     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+     <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+     <form action='https://bigin.zoho.com/crm/WebToContactForm' name='CMIGNITEWebToContacts' method='POST' enctype='multipart/form-data' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+    <!-- Do not remove this code. -->
+         <input type='text' style='display:none;' name='xnQsjsdp' value='a9faf93f552a8ee17efab1ca9a90c2ca3b606fc1ca9899fda0664e525e4bb29d'/>
+         <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+         <input type='text' style='display:none;' name='xmIwtLD' value='58b6bdd92a8345d448ad5f606f24c44ce469dba6620a369d2008a7310579a662'/>
+         <input type='text' style='display:none;' name='actionType' value='Q29udGFjdHM='/>
+         <input type='text' style='display:none;' name='returnURL' value='https://google.com' />
+         <div style="font-size: 21px; margin-bottom: 15px;word-break: break-word;">Quote</div>
+         <div style="border:0;width: 100%;background-color: white;color:black;font-family:Arial;text-align:left; font-size: 15;">
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">First Name
+                   </div>
+                   <div class="bgn-wf-field">
+                        <input name="First Name" type="text" maxlength="40" value="" placeholder="" style=" border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;"/>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Last Name
+                        <span class="bgn-star">&#42;</span>
+                   </div>
+                   <div class="bgn-wf-field">
+                        <input name="Last Name" type="text" maxlength="80" value="" placeholder="" style=" border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;"/>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Mailing Street
+                   </div>
+                   <div class="bgn-wf-field">
+                        <input name="Mailing Street" type="text" maxlength="250" value="" placeholder="" style=" border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;"/>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Mailing City
+                   </div>
+                   <div class="bgn-wf-field">
+                        <input name="Mailing City" type="text" maxlength="100" value="" placeholder="" style=" border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;"/>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Mailing State
+                   </div>
+                   <div class="bgn-wf-field">
+                        <input name="Mailing State" type="text" maxlength="100" value="" placeholder="" style=" border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;"/>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Mailing Zip
+                   </div>
+                   <div class="bgn-wf-field">
+                        <input name="Mailing Zip" type="text" maxlength="30" value="" placeholder="" style=" border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;"/>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Email
+                   </div>
+                   <div class="bgn-wf-field">
+                        <input name="Email" type="text" maxlength="100" value="" placeholder="" style=" border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;"/>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Phone
+                   </div>
+                   <div class="bgn-wf-field">
+                        <input name="Phone" type="text" maxlength="50" value="" placeholder="" style=" border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;"/>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Contact Type
+                        <span class="bgn-star">&#42;</span>
+                   </div>
+                   <div class="bgn-wf-field">
+                        <select name="CONTACTCF1" style="border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;">
+                             <option value="-None-">-None-</option>
+                             <option value="Client - Install">Client - Install</option>
+                             <option value="Client - Maintenance">Client - Maintenance</option>
+                             <option value="Vendor">Vendor</option>
+                        </select>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Commercial or Residential?
+                        <span class="bgn-star">&#42;</span>
+                   </div>
+                   <div class="bgn-wf-field">
+                        <select name="CONTACTCF2" style="border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;">
+                             <option value="-None-">-None-</option>
+                             <option value="Commercial">Commercial</option>
+                             <option value="Residential">Residential</option>
+                        </select>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Quote Item 1
+                   </div>
+                   <div class="bgn-wf-field">
+                        <input name="CONTACTCF5" type="text" maxlength="255" value="" placeholder="" style=" border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;"/>
+                   </div>
+              </div>
+              <div class="bgn-wf-row">
+                   <div class="bgn-wf-label">Quote Item 1 Price
+                   </div>
+                   <div class="bgn-wf-field">
+                        <input name="CONTACTCF66" type="text" maxlength="16" value="" placeholder="" style=" border: 1px solid #e2e0df;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;"/>
+                   </div>
+              </div>
+               <div class="bgn-wf-row"><div class="bgn-wf-label"></div><div class="bgn-wf-field">
+                   <input onclick='disableSubmitwhileReset()' type='reset' style='margin-right: 10px;margin-bottom: 10px;font-size:13px;border-radius: 3px;vertical-align: middle;background-color: #fff;border-color: #222;padding: 8px 15px;color: #3c3c3c;border: solid 1px #d4d3d2;display: inline-block;width: auto;' value='Reset' />
+                   <input style='margin-bottom: 10px; font-size:13px;color: #fff;border-radius: 3px;vertical-align: middle;background-color: #1980d8;border-color: #1980d8;padding: 8px 15px;display: inline-block;width: auto;'  id='formsubmit' type='submit' value='Submit' />
+              </div></div>
+         </div>
+         <script>
+          var mndFileds=new Array('Last Name','CONTACTCF1','CONTACTCF2');
+          var fldLangVal=new Array('Last Name','Contact Type','Commercial or Residential?');
+          var name='';
+          var email=''; 
+         function disableSubmitwhileReset(){var e=document.getElementById("formsubmit");null!==document.getElementById("privacyTool")||null!==document.getElementById("consentTool")?(e.disabled=!0,e.style.opacity="0.5;"):e.removeAttribute("disabled")}
+         function checkMandatory(){var e,t=mndFileds.length;for(e=0;e<t;e++){var i=document.forms.CMIGNITEWebToContacts[mndFileds[e]];if(i){if(0===i.value.replace(/^\s+|\s+$/g,"").length)return"file"===i.type?(alert("Please select a file to upload."),i.focus(),!1):(alert(fldLangVal[e]+" cannot be empty."),i.focus(),!1);if("SELECT"===i.nodeName){if("-None-"===i.options[i.selectedIndex].value)return alert(fldLangVal[e]+" cannot be none."),i.focus(),!1}else if("checkbox"===i.type&&!1===i.checked)return alert("Please accept  "+fldLangVal[e]),i.focus(),!1;try{"Last Name"===i.name&&(name=i.value)}catch(e){murphy.error(e)}}}return validateFileUpload()}
+         function validateFileUpload(){var e=document.getElementById("theFile"),t=0;if(e){if(e.files.length>3)return alert("You can upload a maximum of three files at a time."),!1;if("files"in e){var i=e.files.length;if(0!==i){for(var o=0;o<i;o++){var a=e.files[o];"size"in a&&(t+=a.size)}if(t>20971520)return alert("Total file(s) size should not exceed 20MB."),!1}}}}</script>
+    </form>
+    </div>
+
+</body>
+</html>
